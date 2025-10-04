@@ -52,7 +52,7 @@ ENCRYPTION_KEY=your-32-character-encryption-key-here-replace-in-production
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/RamaSai2519/secure_vault.git
    cd secure_vault
    ```
 
@@ -174,19 +174,3 @@ Make sure to:
 
 **Encryption Library**: CryptoJS (AES encryption)
 **Why CryptoJS**: Chosen for its widespread adoption, strong AES implementation, and seamless integration with TypeScript. It provides robust client-side encryption ensuring sensitive data is encrypted before transmission to the server, maintaining privacy-first architecture.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License.
-
-## Support
-
-For support or questions, please open an issue in the GitHub repository.
